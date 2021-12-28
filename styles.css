@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.background-img{
+  background-position: center; 
+  height:100%;
+  width :100%;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  position:absolute;
+}
+.list-item{
+  display: inline;
+  
+}
+.logo{
+  float:left;
+}
+.navbar{
+  position:relative;
+  text-align: right;
+  text-decoration: none;
+  
+}
