@@ -1,10 +1,59 @@
 *{
-  margin: 0;
-  padding: 0;
-  
-  
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bold;
 }
-.list-link, .navbar{
+/* body{
+  background-image: url(images/square.jpg);
+  background-repeat: no-repeat;
+  background-size: 20% auto;
+  margin-left: 30%;
+  background-attachment: scroll;
+
+} */
+h1{
+  font-family: 'Licorice', cursive;
+  text-align: center;
+}
+
+
+/* Navbar Section */
+
+#navbar{
+  text-align: right;
+}
+.nav-item{
+  display: inline;
+  padding:1rem ;
+  list-style-type: none;
+}
+.logo{
+  float:left;
+  padding :0;
+}
+
+/* Container for about and image */
+.container{
+  text-align: center;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+.left {
+  width: 100%;
+}
+.right {
+  width: 70%;
+}
+.inferno{
+  height:50%;
+  width:50%;
+}
+
+
+/* .list-link, .navbar{
   text-decoration: none;
   color :white;
 }
@@ -12,14 +61,7 @@
   color:Orange;
   font-size: 2rem;
 }
-.background-img{
-  background-position: center; 
-  height:100%;
-  width :100%;
-  background-repeat: no-repeat;
-  background-size: cover;  
-  position:absolute;
-}
+
 .list-item{
   display: inline;
   
@@ -28,6 +70,5 @@
   float:left;
 }
 .navbar{
-  position:relative;
   text-align: right;  
-}
+} */
