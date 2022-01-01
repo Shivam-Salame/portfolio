@@ -2,14 +2,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight:bold;
 }
-/* body{
-  background-image: url(images/square.jpg);
-  background-repeat: no-repeat;
-  background-size: 20% auto;
-  margin-left: 30%;
-  background-attachment: scroll;
 
-} */
 h1{
   font-family: 'Licorice', cursive;
   text-align: center;
@@ -21,7 +14,7 @@ h1{
 #navbar{
   text-align: right;
 }
-.nav-item{
+.nav-item {
   display: inline;
   padding:1rem ;
   list-style-type: none;
@@ -52,7 +45,54 @@ h1{
   width:50%;
 }
 
+/* Footer Section */
+div{
+  display:inline-block;
+}
+ .ul-remove-bullet{
+  
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start:0 ;
+}
+.footer-row {
+  display: flex;
+}
+.footer-left, .footer-right{
+  text-align: left;
+}
+.footer-centre{
+  text-align:center;
+}
 
+.footer-col {
+  width: 70%;
+}
+
+/* 
+ */
+
+
+
+
+
+
+
+
+
+
+/* body{
+  background-image: url(images/square.jpg);
+  background-repeat: no-repeat;
+  background-size: 20% auto;
+  margin-left: 30%;
+  background-attachment: scroll;
+
+} */
 /* .list-link, .navbar{
   text-decoration: none;
   color :white;
