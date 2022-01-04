@@ -2,7 +2,10 @@
   font-family: 'Montserrat', sans-serif;
   font-weight:bold;
 }
-
+a{
+  text-decoration: none;
+  color:black;
+}
 h1{
   font-family: 'Licorice', cursive;
   text-align: center;
@@ -46,9 +49,6 @@ h1{
 }
 
 /* Footer Section */
-div{
-  display:inline-block;
-}
  .ul-remove-bullet{
   
     display: inline-block;
@@ -58,23 +58,37 @@ div{
     margin-inline-start: 0;
     margin-inline-end: 0;
     padding-inline-start:0 ;
+    padding:25px 60px 0px 60px;
 }
 .footer-row {
-  display: flex;
+  box-sizing: border-box;
+}
+.footer-col {
+    background-color: cyan;
+    float: left;
+    height: 200px;
+    padding-top:15px;
+    border:1px;
+    border-color: black;
 }
 .footer-left, .footer-right{
   text-align: left;
+  width: 30%;
 }
-.footer-centre{
+.footer-mid{
   text-align:center;
+  width: 40%;
+}
+.footer-right{
+  text-align: right;
+}
+.footer-item-left,.footer-item-right {
+   padding:0.5rem;
+}
+.footer-item-centre{
+  padding:2rem;
 }
 
-.footer-col {
-  width: 70%;
-}
-
-/* 
- */
 
 
 
